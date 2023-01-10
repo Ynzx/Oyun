@@ -12,8 +12,8 @@ else:
     print("Güncelleme yapıldı!")
 from sms import SendSms
 
-token = "NDQ5NjQxMTg5MTU1Nzk5MDQx" #bot olarak kullanmak istediğiniz hesabın Discord token'i.
-chat_id = "1062038237226471506" #sohbet id'si (int)
+token = "" #bot olarak kullanmak istediğiniz hesabın Discord token'i.
+chat_id = "" #sohbet id'si (int)
 
 def getHeaders(token=None, content_type="application/json"):
     header = {
